@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-<head>
+<!DOCTYPE html><html><head>
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="StarBird Crypto WebApp">
@@ -14,18 +11,18 @@
   <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
 
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/png" href="favicon.png">
 
 
   <title>StarBird Crypto</title>
   <link rel="manifest" href="manifest.json">
 
   <script>
-    var serviceWorkerVersion = '1891489084';
+    var serviceWorkerVersion = '2950671873';
   </script>
   <script src="flutter.js" defer=""></script>
 
-  <style>
+  <!-- <style>
     .container {
       width: 100vw;
       height: 100vh;
@@ -36,18 +33,23 @@
 
     .indicator {
       width: 50vw;
-    }
-  </style>
+    } -->
+  <!-- </style> -->
 
   <link rel="stylesheet" type="text/css" href="splash/style.css">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
   <script src="splash/splash.js"></script>
 </head>
 
-<body style="overflow: hidden">
-  <div id="loading_indicator" class="container">
+<body style="overflow: hidden">  <picture id="splash">
+      <source srcset="splash/img/light-1x.png 1x, splash/img/light-2x.png 2x, splash/img/light-3x.png 3x, splash/img/light-4x.png 4x" media="(prefers-color-scheme: light)">
+      <source srcset="splash/img/dark-1x.png 1x, splash/img/dark-2x.png 2x, splash/img/dark-3x.png 3x, splash/img/dark-4x.png 4x" media="(prefers-color-scheme: dark)">
+      <img class="center" aria-hidden="true" src="splash/img/light-1x.png" alt="">
+  </picture>
+
+  <!-- <div id="loading_indicator" class="container">
     <img class="indicator" src="./assets/Icosa.gif">
-  </div>
+  </div> -->
   <script>
     window.addEventListener('load', function (ev) {
       _flutter.loader.loadEntrypoint({
@@ -64,7 +66,7 @@
   <script src="https://www.gstatic.com/firebasejs/9.8.3/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/9.8.3/firebase-auth.js"></script>
 
-  <script>
+  <!-- <script>
     window.onload = function () {
       setTimeout(function () {
         var loadingIndicator = document.getElementById("loading_indicator");
@@ -73,8 +75,8 @@
         }
       }, 10000);
     };
-  </script>
+  </script> -->
 
-</body>
 
-</html>
+
+</body></html>
