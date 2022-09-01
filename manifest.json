@@ -1,6 +1,6 @@
 {
-    "name": "StarBird Crypto",
-    "short_name": "StarBird Crypto",
+    "name": "StarBird",
+    "short_name": "StarBird",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

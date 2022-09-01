@@ -70233,7 +70233,7 @@ $0(){this.a.a32()},
 $S:0}
 A.jz.prototype={
 J(a){var s=null
-return A.ce(s,s,s,new A.di(s,A.avF(B.lB,new A.p7("images/background.jpg",s,s),s),s,s,s,s,B.aG),s,s,s,s)}}
+return A.ce(s,s,s,new A.di(s,A.avF(B.lB,new A.p7("images/background.png",s,s),s),s,s,s,s,B.aG),s,s,s,s)}}
 A.jY.prototype={
 J(a){var s=null
 return A.ce(s,A.pT("images/IconRound.png",B.lB,150,150),s,s,s,s,s,s)}}
